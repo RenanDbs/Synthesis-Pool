@@ -7,19 +7,19 @@
 
 #include "./include/my.h"
 
-int cont_files()
+int cont_files(void)
 {
     DIR *folder;
     struct dirent *entry;
     int files = 0;
 
     folder = opendir("./pokecfg");
-    while ( (entry=readdir(folder)) )
+    while ( (entry = readdir(folder)) )
     {
         files++;
     }
     closedir(folder);
-    return(files);
+    return (files);
 }
 
 void get_info(info *info, char **table, char *path, int i)
@@ -29,7 +29,7 @@ void get_info(info *info, char **table, char *path, int i)
 
     while (fgets(line, 1024, stream))
     {
-        char* tmp = strdup(line);
+        char *tmp = strdup(line);
         if (tmp[0] != '#' && tmp[0] != '\n'){
             table[i] = strdup(line);
             info->nb_pokemon = info->nb_pokemon + 1;
@@ -47,9 +47,9 @@ char *get_path(int size)
     int i = 0;
     char *path = malloc(sizeof(char) * 50);
 
-    strcat(path, "./pokecfg/");    
+    strcat(path, "./pokecfg/");
     folder = opendir("./pokecfg");
-    while ( (entry=readdir(folder)) )
+    while ( (entry = readdir(folder)) )
     {
         files++;
         if (files == size + 1){

@@ -31,7 +31,7 @@ typedef struct info
     int pos2;
 } info ;
 
-int cont_files();
+int cont_files(void);
 void get_info(info *info, char **table, char *path, int i);
 char *get_path(int size);
 char **my_str_to_word_array(char *str, char sep);
