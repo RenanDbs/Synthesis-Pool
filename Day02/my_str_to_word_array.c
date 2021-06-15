@@ -10,6 +10,8 @@
 void *malloc_w(size_t bytes)
 {
     void *output = malloc(bytes);
+    if (output == NULL)
+        exit (84);
     memset(output, 0, bytes);
     return output;
 }

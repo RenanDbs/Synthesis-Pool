@@ -9,6 +9,10 @@ SRC	=	./main.c \
 		./my_str_to_word_array.c\
 		./my_get.c\
 		./my_get_helper.c\
+		./my_sort.c\
+		./my_sort_helper.c\
+		./my_show.c\
+		./utilities.c\
 
 INC	=	-I./lib/
 
