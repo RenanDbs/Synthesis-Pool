@@ -1,0 +1,7 @@
+#id_movie;title;synposis;id_director;director;id_type;type
+1;“The Title”;“Just a bad movie”;42;“Unknown”;2;“comedy”$
+2;“I love poneys”;“A very good movie about mini horses”;3;“Cronenberg”;3;“drama”$
+4;“I love poney”;“A very good s”;3;“Cronenberg”;3;“drama"$
+7;“My Title 2”;“Just a bad movie”;13;“Roberto Benigni”;2;“comedy”$
+4;“I love poney”;“A very good s”;3;“Cronenberg”;3;“drama"$
+7;“My Title 2”;“Just a bad movie”;13;“Roberto Benigni”;2;“comedy”$

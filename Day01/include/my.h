@@ -32,6 +32,8 @@ typedef struct info
 } info ;
 
 int cont_files(void);
+int my_is_nbr(char *str);
+void check_data(char **end_table);
 void get_info(info *info, char **table, char *path, int i);
 char *get_path(int size);
 char **my_str_to_word_array(char *str, char sep);

@@ -6,16 +6,13 @@
 ##
 
 SRC	=	./main.c \
-		./open_folder.c\
 		./my_str_to_word_array.c\
-		./struct_work.c\
-		./gameloop.c\
-		./gameloop_helper.c\
-		./struct_work_helper.c
+		./my_get.c\
+		./my_get_helper.c\
 
 INC	=	-I./lib/
 
-NAME	=	pokemon
+NAME	=	my_db
 
 all:	$(NAME)
 
