@@ -1,7 +1,7 @@
 #id_movie;title;synposis;id_director;director;id_type;type
-1;“The Title”;“Just a bad movie”;42;“Unknown”;2;“comedy”$
-2;“I love poneys”;“A very good movie about mini horses”;3;“Cronenberg”;3;“drama”$
-4;“I love poney”;“A very good s”;3;“Cronenberg”;3;“drama"$
+1;“My Title”;“Just a bad movie”;42;“Unknown”;2;“comedy”$
+2;“I love poneys”;“A very good movie about mini horses”;3;“Cronenberg”;3;“drama”
 7;“My Title 2”;“Just a bad movie”;13;“Roberto Benigni”;2;“comedy”$
-4;“I love poney”;“A very good s”;3;“Cronenberg”;3;“drama"$
-7;“My Title 2”;“Just a bad movie”;13;“Roberto Benigni”;2;“comedy”$
+8;“My Title 3”;“Just a bad movie”;42;“Unknown”;2;“comedy”$
+27;“poney for life”;“Cronenberg explores his inner self”;3;“Cronenberg”;4;“docu”
+54;“My Title 4”;“Just a bad movie”;5;“Charles Chaplin”;2;“comedy”

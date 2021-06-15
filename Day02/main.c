@@ -38,7 +38,7 @@ void get_struct(char **table, list *list, int nb_movies)
         list[i].director = strdup(end_table[4]);
         list[i].id_type = atoi(end_table[5]);
         list[i].type = strdup(end_table[6]);
-        free(end_table);
+        printf("IN STRUC LOOP = %s\n", end_table[1]);
     }
     printf("AFTER STRUC = %s\n", list[0].title);
 }
