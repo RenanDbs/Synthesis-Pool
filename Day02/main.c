@@ -11,12 +11,19 @@ void my_commands(list *list, char *str, int nb_movies)
 {
     char *tmp = strdup(str);
     char *token = strtok(tmp, " ");
-    if (strcmp(token, "get") == 0)
+    if (strcmp(token, "get") == 0){
         my_get(list, str, nb_movies);
-    if ((strcmp(token, "show")) == 0)
+        return;
+    }
+    if ((strcmp(token, "show")) == 0){
         my_show(list, str, nb_movies);
-    if ((strcmp(token, "sort")) == 0)
+        return;
+    }
+    if ((strcmp(token, "sort")) == 0){
         my_sort(list, str, nb_movies);
+        return;
+        }
+    write(2, "Wrong arguments\n", 16);
 }
 
 void my_free(char **table, list *list, int nb_movies)

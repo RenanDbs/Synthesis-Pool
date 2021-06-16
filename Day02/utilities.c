@@ -13,6 +13,10 @@ int get_info(char **table, char *path)
     char line[1024];
     int i = 0;
 
+    if (stream == NULL) {
+        write(2, "File not found\n", 15);
+        exit (84);
+    }
     while (fgets(line, 1024, stream))
     {
         char *tmp = strdup(line);
