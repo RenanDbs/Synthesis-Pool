@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2021
-** tool.c
+** my_add_food_helper.c
 ** File description:
 ** .
 */

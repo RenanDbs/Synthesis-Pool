@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2020
-** rush-1-4.c
+** check_if_int.c
 ** File description:
-** rush 1 - 4 copy pasta code from 2
+** .
 */
 
 #include "lib/my.h"
